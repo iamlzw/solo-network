@@ -4,18 +4,18 @@ fabric v1.4.2示例网络,solo共识版本
 
 ```bash
 $ cd ANY PATH
-$ git clone https://github.com/iamlzw/fabric-network-samples.git
+$ git clone https://github.com/iamlzw/solo-network.git
 ```
 ### 2、copy chaincode to GOPATH
 ```bash
-$ cd fabric-network-samples
+$ cd solo-network
 $ cp -r chaincode $GOPATH/src/
 ```
 
 ### 3、start fabric network
 
 ```bash
-$ cd fabric-network-samples/v1.4.2/solo
+$ cd solo-network/v1.4.2/solo
 $ ./start.sh
 ```
 
