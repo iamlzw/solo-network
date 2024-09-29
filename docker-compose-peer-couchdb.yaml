@@ -53,8 +53,8 @@ services:
       # match the username and password set for the associated CouchDB.
       - CORE_LEDGER_STATE_COUCHDBCONFIG_USERNAME=admin
       - CORE_LEDGER_STATE_COUCHDBCONFIG_PASSWORD=adminpw
-      - CORE_CHAINCODE_BUILDER=hyperleder/fabric-ccenv:1.4.2
-      - CORE_CHAINCODE_GOLANG_RUNTIME=hyperleder/fabric-baseos:amd64-0.4.15
+      - CORE_CHAINCODE_BUILDER=hyperledger/fabric-ccenv:1.4.2
+      - CORE_CHAINCODE_GOLANG_RUNTIME=hyperledger/fabric-baseos:amd64-0.4.15
     volumes:
         - /var/run/:/host/var/run/
         - ./crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp:/etc/hyperledger/fabric/msp
