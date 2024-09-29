@@ -15,7 +15,7 @@ $ cp -r chaincode $GOPATH/src/
 ### 3、start fabric network
 
 ```bash
-$ cd solo-network/v1.4.2/solo
+$ cd solo-network
 $ ./start.sh
 ```
 
